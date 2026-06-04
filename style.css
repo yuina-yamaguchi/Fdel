@@ -458,6 +458,11 @@ h1, h2, h3, h4 { font-family: var(--font-serif); color: var(--gold); }
   .live-date .day { font-size: 1.7rem; }
 }
 
+/* ← この下に追加 */
+.hidden-live {
+  display: none;
+}
+
 /* ---- Gallery ---- */
 .gallery-grid {
   display: grid;
